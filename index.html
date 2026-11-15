@@ -6,8 +6,53 @@
 <title>24 Protection | Protect Before Failure</title>
 
 <style>
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
 
-*{
+.tech-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.tech-card h3 {
+    color: #0057b8;
+    margin-bottom: 15px;
+}
+
+.tech-card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.applications-box {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.applications-box h3 {
+    margin-bottom: 25px;
+    color: #003366;
+}
+
+.applications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 15px;
+}
+
+.applications-grid div {
+    background: #f6f8fb;
+    padding: 18px;
+    border-radius: 12px;
+    font-weight: 600;
+}*{
 margin:0;
 padding:0;
 box-sizing:border-box;
