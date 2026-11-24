@@ -289,8 +289,66 @@ text-align:center;
 margin:15px auto;
 max-width:900px;
 }
+.knowledge-map{
+    position:relative;
+    max-width:700px;
+    margin:0 auto;
+}
 
-</style>
+.knowledge-map img{
+    width:100%;
+    display:block;
+}
+
+.hotspot{
+    position:absolute;
+    display:block;
+    cursor:pointer;
+}
+
+.hotspot:hover{
+    background:rgba(255,140,0,0.15);
+}
+
+/* Understanding Corrosion */
+.hotspot-corrosion{
+    left:0%;
+    top:18%;
+    width:40%;
+    height:30%;
+}
+
+/* Protect Before Failure */
+.hotspot-pbf{
+    right:0%;
+    top:18%;
+    width:40%;
+    height:30%;
+}
+
+/* Asset Life Extension */
+.hotspot-life{
+    left:0%;
+    bottom:5%;
+    width:33%;
+    height:33%;
+}
+
+/* Protection Strategies */
+.hotspot-strategy{
+    left:33%;
+    bottom:5%;
+    width:34%;
+    height:33%;
+}
+
+/* Infrastructure Knowledge */
+.hotspot-infra{
+    right:0%;
+    bottom:5%;
+    width:33%;
+    height:33%;
+}</style>
 
 </head>
 
@@ -482,8 +540,25 @@ Ideas today. A more resilient tomorrow.
 
 <div class="knowledge-map">
 
-  <img src="knowledge-center-insights-v1.png"
-       alt="Knowledge Center">
+<img src="knowledge-center-insights-v1.png"
+     alt="Knowledge Center">
+
+<a href="#"
+   class="hotspot hotspot-corrosion"></a>
+
+<a href="#"
+   class="hotspot hotspot-pbf"></a>
+
+<a href="#"
+   class="hotspot hotspot-life"></a>
+
+<a href="#"
+   class="hotspot hotspot-strategy"></a>
+
+<a href="#"
+   class="hotspot hotspot-infra"></a>
+
+</div>
 
   <a href="#"
      class="hotspot hotspot-corrosion"></a>
